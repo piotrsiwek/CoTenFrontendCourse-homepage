@@ -11,3 +11,18 @@ section {
 article {
 	background-color: aqua;
 }
+
+a {
+	color: green;
+}
+
+section a {
+	color: blue;
+}
+
+.my-article p {
+	background: crimson;
+	color: white;
+
+}
+
