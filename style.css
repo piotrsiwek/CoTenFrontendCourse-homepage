@@ -26,3 +26,20 @@ section a {
 
 }
 
+.header {}
+
+.navigation {
+	padding: 20px;
+	background: black;
+
+
+}
+
+.navigation__link {
+	color: white;
+
+}
+
+footer {
+	font-size: 12px;
+}
