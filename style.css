@@ -1,24 +1,55 @@
-h1 {
-	color: white;
-	background: red;
+html {
+	background-color: #f3f3f3;
+	box-sizing: border-box;
+
 }
 
-section {
-	background-color: antiquewhite;
-	margin-bottom: 20px;
-}
-
-article {
-	background-color: aqua;
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 a {
 	color: green;
 }
 
+body
+{
+	font-family: Arial, Helvetica, sans-serif
+}
+
+article {
+	background-color: aqua;
+}
+
+h1 {
+	color: white;
+	background: red;
+}
+
+
+
+footer {
+
+	font-size: 12px;
+	padding: 20px;
+}
+
+section {
+
+	width: 350px;
+	height: 350px;
+
+	padding: 16px 26px;
+	background-color: antiquewhite;
+	margin-bottom: 20px;
+	border-radius: 32px;
+	margin: 40px auto;
+}
+
 section a {
 	color: blue;
 }
+
 
 .my-article p {
 	background: crimson;
@@ -26,20 +57,18 @@ section a {
 
 }
 
-.header {}
 
-.navigation {
-	padding: 20px;
+
+.navbar {
+	top: 0;
+	position:sticky
+	padding: 10px;
 	background: black;
 
 
 }
 
-.navigation__link {
+.navbar__link {
 	color: white;
 
-}
-
-footer {
-	font-size: 12px;
 }
