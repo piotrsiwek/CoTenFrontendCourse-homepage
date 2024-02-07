@@ -19,6 +19,7 @@ body
 
 article {
 	background-color: aqua;
+	padding: 10px;
 }
 
 h1 {
@@ -27,17 +28,33 @@ h1 {
 }
 
 
+h2 {
+	color: white;
+	background: blue;
+	padding: 10px;
+}
 
-footer {
+header {
+	background-color: #f3f3f3;
+	padding: 20px;
+}
+
+.footer {
 
 	font-size: 12px;
 	padding: 20px;
 }
 
-section {
+.footer__paragraph {
+	background-color: #f3f3f3;
+	font-style: oblique;
+}
+
+.section {
 
 	width: 350px;
 	height: 350px;
+	
 
 	padding: 16px 26px;
 	background-color: antiquewhite;
@@ -46,10 +63,23 @@ section {
 	margin: 40px auto;
 }
 
-section a {
-	color: blue;
+.section__header 
+{
+	background-color: #b00000;
+	padding: 20px;
 }
 
+.section__header--special {
+	background-color: tomato;
+}
+
+section__profilepicture	{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #f3f3f3;
+	margin: 0 auto;
+}
 
 .my-article p {
 	background: crimson;
