@@ -9,4 +9,4 @@ console.log(age);
 
 const header = document.querySelector('.page-header__heading--js');
 
-header.innerHTML = `My name is ${firstName} and my age is ${age}`;
+//header.innerHTML = `My name is ${firstName} and my age is ${age}`;
