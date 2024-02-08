@@ -22,79 +22,57 @@ article {
 	background-color: aqua;
 	padding: 10px;
 }
-r
-h1 {
-	color: white;
-	background: red;
-}
 
-
-h2 {
-	color: white;
-	background: blue;
-	padding: 10px;
-}
-
-header {
-	background-color: #f3f3f3;
-	padding: 20px;
-	font-weight: 400;
+.header {
+	position: sticky;
+	top: 0;
 }
 
 .footer {
-
+	max-width: 768px;
+	margin: 0 auto;
 	font-size: 12px;
-	padding: 20px;
+	padding: 16px;
 }
 
 .footer__paragraph {
 	background-color: #f3f3f3;
 	font-style: oblique;
+	color: #cccccc;
 }
 
-.section {
+.footer__top--link {
+	position:fixed;
+	bottom: 15px;
+	right: 15px;
+	padding: 8px 12px;
+	color: white;
+	display: block;
+	border-radius: 10px;
+	background: black;
 
-	width: 350px;
-	height: 350px;
-	
-
-	padding: 16px 26px;
-	background-color: antiquewhite;
-	margin-bottom: 20px;
-	border-radius: 32px;
-	margin: 40px auto;
 }
-
-.section__header 
-{
-	background-color: #b00000;
-	padding: 20px;
-}
-
-.section__header--special {
-	background-color: tomato;
-}
-
-.section__profilepicture	{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color: #f3f3f3;
-	margin: 0 auto;
-}
-
-.section p {
-	line-height: 1.5;
-	letter-spacing: 2px;
-}
-
-.my-article p {
-	background: crimson;
+.my-article {
+	margin-bottom: 32px;
 	color: white;
 
 }
 
+.my-article p {
+	color: black;
+	background: #b00000;
+	padding: 15px;
 
+}
+
+.my-article__header {
+	background: #f3f3f3;
+	
+}
+
+.my-article__content--js {
+	padding: 15px;
+}
 
 .navbar {
 	top: 0;
@@ -111,6 +89,46 @@ header {
 }
 
 .namelastname {
-	color: white;
+	color: rgb(235, 5, 5);
 	font-weight: 900;
 }
+
+.main {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.page-header {
+	padding: 16px;
+}
+.section {
+	padding: 16px;
+	background-color: antiquewhite;
+	margin-bottom: 20px;
+	border-radius: 32px;
+	margin: 40px auto;
+}
+
+.section__header {
+	color: #b00000;
+	
+}
+
+.section__header--special {
+	background-color: tomato;
+}
+
+.section__profilepicture	{
+	max-width: 100%;
+	display: block;
+	height: 100px;
+	border-radius: 32px;
+	background-color: #f3f3f3;
+	margin: 0 auto;
+}
+
+.section p {
+	line-height: 1.5;
+	letter-spacing: 2px;
+}
+

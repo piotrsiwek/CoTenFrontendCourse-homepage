@@ -11,14 +11,14 @@
 </head>
 
 <body>
-	<header>
+	<header class="header">
 		<nav class="navbar">
 			<a href="index.html" class="navbar__link">Strona glowna</a>
 			<a href="nauka-html.html" class="navbar__link">Nauka HTML</a>
 		</nav>
 	</header>
 
-	<main>
+	<main class="main">
 		<header class="page-header id="top">
 			<h1 class="page-header__heading page-header__heading--js"> <span class="namelastname"> Piotr Siwek</span> - CotenFrontend course practice website</h1>
 		</header>
@@ -32,15 +32,32 @@
 		</section>
 
 		<section class="section">
-			<h2 class="section__header section__header--special" >
-			<p> In my free time I try to learn ??.</p>
+			<h2 class="section__header section__header--special" >O mnie</h2>
+
+			<article class="my-article">
+				<h3 class="my-article__header">Naglowek 1</h3>
+				<p>Tresc 1</p>
+
+
+			</article> 
+
+			<article class="my-article">
+				<h3 class="my-article__header">Javascript</h3>
+				<p class="my-article__content--js"></p>
+
+
+			</article> 
 		</section>
 	
 	</main>
 
 	<footer class="footer">
-		Cringe website - author Piotr Siwek
-		<p class="footer__paragraph">All that is posted here makes no sense and exist only as replacement of Lorem ipsum tantum verde.</p>
+		<p class="footer__paragraph">
+			All that is posted here makes no sense and exist only as replacement of Lorem ipsum tantum verde.
+			<a class="footer__top--link" href="#top">
+				Do goryyy!
+			</a>
+		</p>
 	</footer>
 
 <script defer src="main.js"></script>
