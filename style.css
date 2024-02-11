@@ -12,8 +12,7 @@ a {
 	color: green;
 }
 
-body
-{
+body {
 	background: #fefefe;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -67,6 +66,7 @@ article {
 
 .my-article__header {
 	background: #f3f3f3;
+	color: #000;
 	
 }
 
@@ -101,6 +101,13 @@ article {
 .page-header {
 	padding: 16px;
 }
+
+.page-header__heading {
+	color: #b00000;
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: -0.05rem;
+}
 .section {
 	padding: 16px;
 	background-color: antiquewhite;
@@ -130,5 +137,4 @@ article {
 .section p {
 	line-height: 1.5;
 	letter-spacing: 2px;
-}
-
+} 

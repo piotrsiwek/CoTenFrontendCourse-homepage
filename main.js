@@ -9,4 +9,4 @@ const header = document.querySelector('.page-header__heading--js');
 //header.innerHTML = `My name is ${firstName} and my age is ${age}`;
 
 const contenJS = document.querySelector('.my-article__content--js');
-contenJS.innerHTML = `wypełniam treść artykułu z JS`;
+contenJS.innerHTML = `wypełniam treść artykułu z JS wypełniam treść artykułu z JS wypełniam treść artykułu z JS`;
