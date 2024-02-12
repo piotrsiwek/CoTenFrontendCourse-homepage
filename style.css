@@ -122,6 +122,14 @@ article {
 	font-weight: 700;
 	letter-spacing: -0.05rem;
 }
+
+.page-content {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: column;
+	align-self: center;
+	
+}
 .section {
 	padding: 16px;
 	background-color: antiquewhite;
